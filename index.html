@@ -12,7 +12,8 @@
     <!--I made the singular element "header" instea of the div class = header, just cleaner code.-->
     <header >
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--Added <nav> element instead of <div>-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,9 +25,11 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
-    <div class="hero"></div>
+    <!--Was not sure what the div class=hero was doing aside for connecting an image to the main
+    page and css, so i made it more clear with element <figure>-->
+    <figure></figure>
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
